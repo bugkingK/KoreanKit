@@ -45,4 +45,11 @@ public class KoreanKit {
         return self.arrConsonant[syllable.rawValue].contains(self.split(String(query), syllable: syllable))
     }
     
+    public func isSyllable(_ query:String, syllable:Syllable) -> Bool {
+        for unicode in query.unicodeScalars {
+            return self.isSyllable(Character(unicode), syllable: syllable)
+        }
+        return true
+    }
+    
 }

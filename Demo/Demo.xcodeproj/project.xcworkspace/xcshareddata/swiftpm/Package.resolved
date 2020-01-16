@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KoreanKit",
+        "repositoryURL": "https://github.com/bugkingK/KoreanKit",
+        "state": {
+          "branch": null,
+          "revision": "b708339e84a83ac6667fe7d9afeaba2a9a65745d",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

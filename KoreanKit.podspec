@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KoreanKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "You can separate the initial, neutral, and finalities of Hangul."
   s.description  = <<-DESC
 You can separate the initial, neutral, and finalities of Hangul. You can check if the text is syllable
